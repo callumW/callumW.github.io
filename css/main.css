@@ -1,0 +1,14 @@
+@import "colors.css";
+
+h1 {
+    color: var(--header-color);
+}
+
+* {
+    background-color: var(--main-bg-color);
+    color: var(--text-color);
+}
+
+a {
+    color: var(--link-color);
+}
