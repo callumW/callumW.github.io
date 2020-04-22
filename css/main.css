@@ -10,6 +10,14 @@ h1 {
     font-family: 'Space Mono', monospace;
 }
 
+::-moz-selection { /* Code for Firefox */
+    background: var(--link-color);
+}
+
+::selection {
+    background: var(--link-color);
+}
+
 a {
     color: var(--link-color);
 }
